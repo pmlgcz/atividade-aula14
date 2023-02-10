@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade</title>
+</head>
+<body>
+    <script>
+    const pet = {
+  nome: "jujuba",
+  idade: 2,
+  cor: "preta",
+  ronronar: () => {
+    console.log("Rurururururur….");
+  },
+  miar: () => {
+    console.log("Miau miau miauuu….");
+  },
+  atualizarIdade: (num) => {
+    pet.idade = num;
+  },
+};
+
+console.log(pet);
+pet.atualizarIdade(3);
+console.log(pet);
+    
+    </script>
+</body>
+</html>
